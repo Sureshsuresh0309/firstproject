@@ -113,8 +113,39 @@
 
 ///////////promises////////
 
-gdggdgkgkgg.fg
+   gdggdgkgkgg.fg
 
 
 
+// const promise = new Promise((resolve, reject) => {
+//     // Perform an async operation
+//     let success = true; // For demonstration
+//     if (success) {
+//       resolve("Operation succeeded!");
+//     } else {
+//       reject("Operation failed!");
+//     }
+//   });
+//   promise
+//   .then(response => {
+//     console.log(response); // Logs "Operation succeeded!" if resolved
+//   })
+//   .catch(error => {
+//     console.log(error); // Logs "Operation failed!" if rejected
+//   });
 
+const project=new Promise((resolve,reject)=>{
+  let success=true;
+if(success){
+  resolve("success ok bye");
+}else{
+  reject("unsucess damit");
+}
+})
+project
+.then(final=>{
+console.log(final)
+})
+.catch(Error=>{
+console.log(Error)
+});
